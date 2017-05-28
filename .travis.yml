@@ -1,6 +1,9 @@
 sudo: required 
 language: python
 
+env:
+  - secure: "AAAAB3NzaC1yc2EAAAADAQABAAABAQDKtoaqG1DDgCH6sqdGPg/JZfewZVpcOr5EcJIPwFCSY/WCIt91x2H4KN2dDfVgtc6fHsBia6yYjqHrtF5Wj7Hlde58LJ2EHndw+83s6YQmeOEReaWNgErL5TwYPQzLFsplmdNo8tXAmJ3rcnJm8NcPH1xfwcigJGzsFWuc1K0WAcivCOewJTc+NWXWF3EsPrZwbPnWAMrGGcQ1F9ijnMX7Y3xxGYX+XhN5nscQl+W5pVQScSrqjGw4KD1bxoo/luMkeNoKHG0dHn/Xkz+rXJrJDbPkEZfHBIFvFHhWrq9ajE4FioIgdhl64DQy2WBO8v99LJXK2CAqPSmI6oayYxDv"
+
 before_install:
     - sudo apt-get update
     - sudo apt-get install python-setuptools
